@@ -564,7 +564,7 @@ jobs:
         PASS=${{ secrets.SSH_PASSWORD }}
         PORT=${{ secrets.SSH_PORT }}
 
-        REMOTE_CMD="
+        REMOTE_CMD=""
 
         while read -r CHANNEL
         do
