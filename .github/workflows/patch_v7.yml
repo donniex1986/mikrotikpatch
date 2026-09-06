@@ -912,7 +912,7 @@ jobs:
           echo "</details>" >> "$RELEASE_BODY"
           echo "" >> "$RELEASE_BODY"
         fi
-        echo "<details><summary><strong>Changelog</strong></summary>" >> "$RELEASE_BODY"
+        echo "<details><summary><strong>Changelog</strong> (click to expand)</summary>" >> "$RELEASE_BODY"
         echo "" >> "$RELEASE_BODY"
         echo "<pre>" >> "$RELEASE_BODY"
         cat "$PUBLISH_DIR/CHANGELOG" >> "$RELEASE_BODY"
