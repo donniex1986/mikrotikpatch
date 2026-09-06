@@ -417,9 +417,9 @@ jobs:
         ARCH_TEXT="\`$ARCH\`"
 
         cat > "$RELEASE_BODY" << EOF
-        **Build Time**: $BUILD_TIME_UTC ($BUILD_TIME)
         **Architecture**: $ARCH_TEXT
         **Channel**: $CHANNELS_TEXT
+        **Build Time**: $BUILD_TIME_UTC ($BUILD_TIME)
 
         <details open><summary><strong>RouterOS</strong></summary>
 
